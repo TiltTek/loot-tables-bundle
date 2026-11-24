@@ -4,6 +4,19 @@ All notable changes to `tilttek/loot-tables-bundle` will be documented in this f
 
 Updates should follow the [Keep a CHANGELOG](https://keepachangelog.com/) principles.
 
+## 0.1.1-alpha - 2026-11-24
+
+### Changed
+
+- Requires the latest minor of each dependency: `doctrine/orm` 3.8, `doctrine/dbal` 4.6, `doctrine/doctrine-bundle` 3.4,
+  `twig/twig` 3.31, `symfony/ux-twig-component` 3.8, `symfony/service-contracts` 3.8,
+  `symfony/translation-contracts` 3.8.
+
+### Fixed
+
+- It requires `phil/commerce-bundle` 0.5, the version published the same day; its requirement of 0.2 or 0.3 kept it
+  from installing beside the published versions.
+
 ## 0.1.0-alpha - 2026-11-20
 
 ### Added
